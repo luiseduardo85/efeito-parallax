@@ -1,0 +1,66 @@
+body, html{
+    margin: 0;
+    font: 16px, "Lato", sans-serif;
+    color: #777;
+    height: 100%;
+    font-family: 'Anek Odia', sans-serif;
+    
+}
+
+.conteudo{
+    color: #777;
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+h3{
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+    
+}
+
+.caixa1, .caixa2, .caixa3, .caixa4{
+    height: 100%;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.caixa1{
+    background-image: url(../image/imagem1.jpg);
+}
+
+.caixa2{
+    background-image: url(../image/imagem2.jpg);
+
+}
+
+.caixa3{
+    background-image: url(../image/imagem3.jpg);
+}
+
+.caixa4{
+    background-image: url(../image/imagem4.jpg);
+}
+
+.titulo{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Grape Nuts', cursive;
+}
+
+.titulo span.tittle{
+    color: #fff;
+    background-color: #114;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
